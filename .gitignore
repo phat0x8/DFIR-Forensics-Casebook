@@ -1,0 +1,51 @@
+# Raw Forensic Disk Images & Evidence Dumps (Never commit large or sensitive evidence binaries)
+*.dd
+*.001
+*.002
+*.003
+*.E01
+*.aff
+*.raw
+*.img
+*.iso
+*.vmdk
+*.vdi
+*.vbox
+
+# Extracted Mailboxes, Databases & Hives
+*.ost
+*.pst
+*.evtx
+*.pf
+*.dat
+*.DAT
+*.db
+*.sqlite
+*.sqlite3
+SAM
+SYSTEM
+SOFTWARE
+SECURITY
+DEFAULT
+
+# Archives & Compressed Evidence
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# Word / Office Temporary & Administrative Files
+*.docx
+*.pptx
+*.xlsx
+~$*
+
+# Python / OS / IDE Artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
